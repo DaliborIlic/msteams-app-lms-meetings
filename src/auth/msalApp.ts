@@ -17,6 +17,7 @@ export const msalApp = new UserAgentApplication({
     authority: 'https://login.microsoftonline.com/common',
     validateAuthority: true,
     postLogoutRedirectUri: 'http://localhost:3000',
+    //postLogoutRedirectUri: 'http://contentproperty.com/meetings/',
     navigateToLoginRequestUrl: false
   },
   cache: {
